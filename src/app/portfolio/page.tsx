@@ -1,13 +1,10 @@
-import BasicPageLayout from "@/components/common/basic";
 
-const Portfolio = () => {
+const Projects = () => {
     return (
-        <BasicPageLayout >
-            <div>
-                <h1>케넨 붐은 온다</h1>
-            </div>
-        </BasicPageLayout>
+        <>
+            <div>맨</div>
+        </>
     )
 }
 
-export default Portfolio;
+export default Projects;

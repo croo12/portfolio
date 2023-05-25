@@ -1,5 +1,5 @@
 export interface IconWithLinkProps {
-    linkUrl : string;
+    linkUrl? : string;
     iconSrc : string;
     alt? : string;
     width? : number;
@@ -8,16 +8,24 @@ export interface IconWithLinkProps {
 
 export interface CardComponentProps {
     title : string;
-    content? : string | null;
-    url : string | undefined;
+    content? : Array<React.ReactNode>;
+    url? : string | undefined;
+    padding? : number;
+    dark? : boolean;
 }
 
 export interface LayoutProps {
-    children : React.ReactNode
+    children : React.ReactNode;
+    color? : string;
 }
 
 export interface SentenceProps {
-    title : string,
-    code : string | undefined,
+    content? : string,
+    bold? : string | undefined,
 }
 
+export interface BadgeProps {
+    iconSrc : string;
+    title : string;
+    value : string;
+}

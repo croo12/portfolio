@@ -1,10 +1,15 @@
+import Card from '@/components/card';
 import BasicPageLayout from '@/components/common/basic'
-import Sentence from '@/components/sentence'
+import Line from '@/components/line';
+import { HomeDescribe } from '@/utils/static_data';
 
-export default function Home() {
+const Home = () => {
   return (
-    <BasicPageLayout>
-        <Sentence title={`Get started by editing`} code={`src/app/page.tsx`} />
-    </BasicPageLayout>
+    <>
+        <Card title='안녕하세요.' content={HomeDescribe.map(el => <Line content={el} />)}  />
+        <br/>
+    </>
   )
 }
+
+export default Home;

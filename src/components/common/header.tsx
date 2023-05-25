@@ -1,11 +1,10 @@
-import Image from "next/image";
 import Card from "../card";
 import IconWithLink from "../icon_link";
 import { HeaderCardsData, HeaderIconsData } from "@/utils/static_data";
 
 const Header = () => {
     return (
-        <header className="background-effect pt-8">
+        <header className="background-effect pt-8" id="top">
             <div>
 
                 <div className='flex justify-between pr-16'>
