@@ -27,8 +27,8 @@ export const HeaderCardsData : Array<CardComponentProps> = [
         title : "PROJECTS"
     },
     {
-        url : "/kennen",
-        title : "KENNEN"
+        url : "/else",
+        title : "ELSE"
     }
 ]
 
@@ -37,7 +37,7 @@ export const HomeDescribe = [
     `새로운 지식을 얻는 것을 즐기는 풀스택 웹 개발자입니다.`,
     `긍정적인 마음, 문제 해결을 즐기는 성격이 저의 장점입니다. `,
     `\u200B`,
-    `그리고 든든한 사이온 장인이기도 합니다!`
+    `카페인을 코드로 바꾸는 능력이 있는 희귀한 생명체.`
 ]
 
 export const frontIcons : Array<IconWithLinkProps> = [
@@ -45,7 +45,7 @@ export const frontIcons : Array<IconWithLinkProps> = [
         iconSrc : "/icons/javascript.svg",
         linkUrl : "",
         width : 48,
-        height : 48
+        height : 48,
     },
     {
         iconSrc : "/icons/typescript.svg",

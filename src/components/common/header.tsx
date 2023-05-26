@@ -1,4 +1,4 @@
-import Card from "../card";
+import LinkCard from "../Link";
 import IconWithLink from "../icon_link";
 import { HeaderCardsData, HeaderIconsData } from "@/utils/static_data";
 
@@ -19,7 +19,7 @@ const Header = () => {
                         {
                             HeaderIconsData.map((el, idx) => {
                                 return (
-                                    <IconWithLink {...el} />
+                                    <IconWithLink {...el} key={idx} />
                                 )
                             })
                         }
@@ -32,7 +32,7 @@ const Header = () => {
         <div className="mb-32 flex justify-center text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
             {HeaderCardsData.map((el, idx) => {
                 return (
-                    <Card {...el} />
+                    <LinkCard {...el} key={idx} />
                 )
             })}
         </div>

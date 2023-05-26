@@ -29,3 +29,12 @@ export interface BadgeProps {
     title : string;
     value : string;
 }
+
+export interface ProjectProps {
+    image? : string, 
+    content : string,
+    title : string,
+    //담당
+    job : string,
+    feeling : string,
+  }

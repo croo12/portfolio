@@ -6,7 +6,7 @@ import Footer from "./footer";
 const BasicPageLayout : React.FC<LayoutProps> = ({children}) => {
 
     return (
-        <div className='min-h-screen'>
+        <div className='min-h-screen overflow-x-visible'>
             <Header />
             <MainLayout>
                 {children}
