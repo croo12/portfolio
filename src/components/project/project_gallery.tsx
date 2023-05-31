@@ -9,8 +9,9 @@ const ProjectGallery : React.FC<ProjectProps> = ({image = undefined, content, ti
 
   return (
     <div className='w-full p-4' style={{ display: 'flex' }}>
-      <div className='' style={{ flex: 1 }}>
+      <div className='pt-8' style={{ flex: 1 }}>
         <img className='block m-auto' src={image} alt="Gallery" style={{ width: '100%', height: 'auto' }} />
+        <button className='rounded-xl font-bold bg-gray-100 p-2 m-4 mx-auto text-center'>GO README</button>
       </div>
       <ProjectCard 
         title={title}

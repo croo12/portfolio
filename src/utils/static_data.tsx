@@ -28,7 +28,7 @@ export const HeaderCardsData : Array<CardComponentProps> = [
     },
     {
         url : "/else",
-        title : "ELSE"
+        title : "EXPERIENCE/AWARDS"
     }
 ]
 

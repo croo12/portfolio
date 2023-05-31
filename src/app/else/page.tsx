@@ -17,7 +17,7 @@ const dummy = [
         date: "2021.07"
     },
     {
-        name : "정보처리 산업기사 취득", 
+        name : "과정평가형 정보처리 산업기사 취득", 
         description: "(과정평가형)정보처리 산업기사", 
         date: "2022.05.26"
     },
@@ -32,14 +32,19 @@ const dummy = [
         date: "2022.07"
     },
     {
-        name : "공통프로젝트 우수상", 
-        description: "SSAFY - Live 부동산 프로젝트", 
-        date: "2023.01"
+        name : "공통프로젝트 최우수 프로젝트 - 1등", 
+        description: "SSAFY - Live 원터치 부동산 프로젝트", 
+        date: "2023.02.27"
     },
     {
-        name : "특화프로젝트 우수상", 
-        description: "SSAFY - Cookscape 비대칭 술래잡기", 
-        date: "2023.03"
+        name : "특화프로젝트 최우수 프로젝트 - 1등", 
+        description: "SSAFY - Cookscape 술래잡기 게임", 
+        date: "2023.04.18"
+    },
+    {
+        name : "자율프로젝트 우수 프로젝트 - 3등", 
+        description: "SSAFY - 우아한 우리 아이 한글교육 어플리케이션", 
+        date: "2023.05.25"
     },
     {
         name : "SSAFY 8기", 
@@ -48,7 +53,7 @@ const dummy = [
     },
 ]
 
-const Kennen = () => {
+const Achievement = () => {
     return (
         <>
             <Feed achievements={dummy} />
@@ -56,4 +61,4 @@ const Kennen = () => {
     )
 }
 
-export default Kennen;
+export default Achievement;

@@ -4,7 +4,7 @@ import IntroduceBadges from "@/components/introduce/introduce_badges";
 import Layout from "@/components/small_layout";
 import { backIcons, deploymentIcons, frontIcons } from "@/utils/static_data";
 
-interface IntroducePageProps {
+type IntroducePageProps = {
     frontend : Array<React.JSX.Element>,
     backend : Array<React.JSX.Element>,
     deployment : Array<React.JSX.Element>,
